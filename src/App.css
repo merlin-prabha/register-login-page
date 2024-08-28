@@ -40,3 +40,54 @@
 .error {
   color: rgb(173, 46, 46);
 }
+.main-heading {
+  text-align: center;
+}
+.product {
+  list-style-type: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #eaebed;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+.product-title {
+  font-size: 20px;
+  font-family: "Roboto";
+}
+.products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media(min-width: 768px) {
+  .products-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product {
+    width: 25%;
+  }
+}
+.details-image {
+  width: 500px;
+  align-self: center;
+}
+.details-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #eaebed;
+  margin: 30px;
+  padding: 20px;
+}
+.details-heading {
+  align-self: center;
+}
